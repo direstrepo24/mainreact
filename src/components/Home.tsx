@@ -22,7 +22,7 @@ export function Home({
     async function fetechProducts() {
         setLoading(true)
         const data = await getProducts()
-        setProducts(data);
+        setProducts(data)
         setLoading(false)
     }
 
